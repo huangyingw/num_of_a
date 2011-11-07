@@ -17,7 +17,6 @@ int num_of_a(int a,int num)
       current_a*=10;
       current_a+=a;
     }
-    cout<<current_a<<endl;
     sum+=current_a;
   }
   return sum;
