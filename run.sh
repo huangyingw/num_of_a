@@ -1,2 +1,2 @@
 make -B \
-&& ./palindrome.exe
+&& ./num_of_a.exe
