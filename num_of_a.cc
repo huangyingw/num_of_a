@@ -11,12 +11,13 @@ int num_of_a(int a,int num)
 
   for (int i=1;i<= num;i++)
   {
+    current_a=0;
     for (int j=0;j<i;j++)
     {
       current_a*=10;
       current_a+=a;
-      cout<<current_a<<endl;
     }
+    cout<<current_a<<endl;
     sum+=current_a;
   }
   return sum;
