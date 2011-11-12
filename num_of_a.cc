@@ -8,7 +8,6 @@ using namespace std;
 int num_of_a(int a,int num)
 {
   int current_a=0,sum=0;
-
   for (int i=1;i<= num;i++)
   {
     current_a=0;
@@ -26,5 +25,9 @@ int main()
 {
   cout<<num_of_a(3,5)<<endl;//37035
   cout<<num_of_a(4,5)<<endl;//49380
+  /*
+     37035
+     49380
+     */
   return 0;
 }
